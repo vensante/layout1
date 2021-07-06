@@ -1,0 +1,94 @@
+body {
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+
+.header-top-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #007765;
+  padding: 18px 55px;  
+
+}
+
+
+img.logo2 {
+margin-left: -48px;
+}
+
+.menu-list {
+  width: 500px;
+  float: right;
+  margin-right: 54px;
+}
+
+.menu-list li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+padding: 0 0.5em 0 0.5em;
+}
+
+.menu-list li:not(:last-child) {
+  border-right: 1px solid #FFFFFF;
+}
+
+.menu-list li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.main-title {
+  background: url(image.svg);
+  background-size: cover;
+  padding: 160px 55px;
+  margin-top: 84px;
+}
+
+.main-title h1 {
+  font-weight: 500;
+  font-size: 72px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.content {
+position: relative;
+background: #EEEEEE;
+margin: 0px;
+padding-top: 50px;
+text-align: center;
+}
+
+.text {
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text h2 {
+color: #007765;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+}
+
+.text p {
+  width: 800px;
+  margin: 24px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
