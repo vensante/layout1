@@ -13,6 +13,9 @@ body {
   z-index: 100;
 }
 
+.header-top-line a {
+  text-decoration: none;
+}
 
 img.logo2 {
 margin-left: -48px;
