@@ -31,7 +31,7 @@ margin-left: -48px;
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
-padding: 0 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .menu-list li:not(:last-child) {
@@ -74,11 +74,10 @@ padding: 0 0.5em 0 0.5em;
 }
 
 .content {
-position: relative;
 background: #EEEEEE;
 margin: 0px;
-padding-top: 50px;
-padding-bottom: 120px;
+padding-top: 48px;
+padding-bottom: 92px;
 text-align: center;
 }
 
@@ -99,6 +98,8 @@ font-weight: 500;
 font-size: 64px;
 line-height: 75px;
 text-align: center;
+margin-top: 0;
+margin-bottom: 74px;
 }
 
 .text p {
@@ -113,7 +114,7 @@ text-align: center;
 
 ul.team {
   text-align: center;
-  padding-top: 70px;
+  margin-top: 0;
 }
 
 ul.team li {
@@ -124,7 +125,7 @@ ul.team li {
 }
 
 ul.team li img {
-  margin: auto;
+  margin: 0 auto;
   width: 115px;
 }
 
@@ -135,8 +136,28 @@ ul.team li h3 {
   margin-bottom: 0;
 }
 
+ul.team li h3:hover {
+  color:#048b77;
+}
+
 ul.team li em {
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
+}
+
+.footer {
+  background: #333333;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer p {
+  width: 540px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
