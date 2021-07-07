@@ -59,11 +59,27 @@ padding: 0 0.5em 0 0.5em;
   text-align: center;
 }
 
+.second-title h1 {
+  font-style: italic;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.second-title {
+  background: url(image2.png);
+  background-size: cover;
+  padding: 120px 55px;
+}
+
 .content {
 position: relative;
 background: #EEEEEE;
 margin: 0px;
 padding-top: 50px;
+padding-bottom: 120px;
 text-align: center;
 }
 
