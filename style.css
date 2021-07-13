@@ -45,35 +45,44 @@ margin-left: -48px;
   font-weight: 500;
   font-size: 24px;
   color: #FFFFFF;
+  transition: font-size 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
-.main-title {
+.menu-list li a:hover {
+  font-weight: 500;
+  font-size: 26px;
+  color: #cdfb81;
+}
+
+.first-hero {
   background: url(image.svg);
   background-size: cover;
+  background-position: center center;
   padding: 160px 55px;
   margin-top: 84px;
 }
 
-.main-title h1 {
+.first-hero p {
   font-weight: 500;
   font-size: 72px;
   color: #FFFFFF;
   text-align: center;
 }
 
-.second-title h1 {
+.second-hero {
+  background: url(image2.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 55px;
+}
+
+.second-hero p {
   font-style: italic;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
   text-align: center;
-}
-
-.second-title {
-  background: url(image2.png);
-  background-size: cover;
-  padding: 120px 55px;
 }
 
 .content {
@@ -89,8 +98,10 @@ text-align: center;
 }
 
 .text {
-  width: 800px;
-  text-align: center;
+  max-width: 1219px;
+  box-sizing: border-box;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,7 +117,6 @@ margin-bottom: 74px;
 }
 
 .text p {
-  width: 800px;
   margin: 24px;
   font-size: 24px;
   font-weight: 400;
