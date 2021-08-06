@@ -147,10 +147,13 @@ ul.team li h3 {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 0;
+}
+
+ul.team li h3, ul.team li img {
   transition: transform 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
-ul.team li h3:hover {
+ul.team li h3:hover, ul.team li img:hover {
   color:#048b77;
   transform: scale(1.2);
 }
