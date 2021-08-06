@@ -155,7 +155,7 @@ ul.team li h3, ul.team li img {
 
 ul.team li h3:hover, ul.team li img:hover {
   color:#048b77;
-  transform: scale(1.2);
+  transform: scale(1.2) rotateZ(25deg);
 }
 
 ul.team li em {
